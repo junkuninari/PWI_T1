@@ -1,0 +1,65 @@
+.color1 {
+    color: #8e2714;
+}
+.color2 {
+    color: #704249; /* tosca */
+}
+.color3 {
+    color: #8b3879;
+}
+.color4 {
+    color: #9c8254; /* muesli */
+}
+.color5 {
+    color: #27130e; /* rustic red */
+}
+.color6 {
+    color: #633728; /* hairy heath */
+}
+.color7 {
+    color: #474366; /* meteorite */
+}
+.color8 {
+    color: #273140; /* elephant */
+}
+.color9 {
+    color: #4f407e; /* jacksons purple */
+}
+.color10 {
+    color: #5c4112; /* carnaby tan */
+}
+.color11 {
+    color: #928a52; /* muesli */
+}
+.color12 {
+    color: #d05a35; /* chilean fire */
+}
+.color13 {
+    color: #835d21; /* hot curry */
+}
+.color14 {
+    color: #a8956b; /* mongoose */
+}
+.color15 {
+    color: #724018; /* peru tan */
+}
+
+.color16{
+    color: #abe33f; //Lime green
+}
+
+.color17{
+    color: #00ae9d; //Aqua green
+}
+
+.color18{
+    color: #004c52; //Dark green
+}
+
+.color19{
+    color: #FFFFFF; //White
+}
+
+.rgba{
+    background-color: rgba(0,0,0,0.5);
+}
