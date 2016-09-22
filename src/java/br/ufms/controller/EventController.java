@@ -60,6 +60,8 @@ public class EventController extends HttpServlet {
 
                 case "delete":
                     
+                    message.addMessage("Evento excluído com sucesso!");
+                    
                     request.setAttribute("day", day);
                     
                     int id = Integer.parseInt(request.getParameter("id"));
@@ -134,9 +136,9 @@ public class EventController extends HttpServlet {
                     RequestDispatcher view = request.getRequestDispatcher("view/index/main.jsp");
                     
                     if(action.equals("create")){
-                        request.setAttribute("day", dayX);
                         request.setAttribute("message", message);
-                        request.setAttribute("page", "event/view.jsp");
+                        request.setAttribute("event", eventDao.getEvent(day, id_user));
+                        request.setAttribute("page", "event/edit.jsp");
                         view.forward(request, response);
                     } else if(action.equals("update")){
                         request.setAttribute("message", message);

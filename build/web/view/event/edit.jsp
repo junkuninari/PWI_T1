@@ -28,7 +28,7 @@
             </div>
         </div>
         <button type="submit" class="btn-large waves-effect waves-light">Edit</button>
-        <a href="EventController?action=delete&id=<%= event.getId()%>"><div class="btn-large waves-effect waves-light"><span>Delete</span></div></a>
+        <a href="EventController?action=delete&id=<%= event.getId()%>&day=<%= event.getDay()%>"><div class="btn-large waves-effect waves-light"><span>Delete</span></div></a>
         <a href="EventController?action=back"><div class="btn-large waves-effect waves-light"><span>Cancel</span></div></a>
     </form>
     <div class="col s12">            
